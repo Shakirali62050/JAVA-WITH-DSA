@@ -1,0 +1,21 @@
+package DAY01;
+
+public class max_arr {
+    public static void main(String args[]){
+        int[] arr = {1,4,5,6,7}; // output is 7
+         int x =7;
+         int ans = -1;
+
+        for(int i=0; i<arr.length; i++){
+            if(arr[i] == x){
+                //x = arr[i];
+                ans = i;
+            }
+           
+    }
+    System.out.println("the largest number of array " +  x  + " at index  " + ans );
+}}
+
+// search at index and print
+
+// print the 7 at index 5 
